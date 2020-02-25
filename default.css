@@ -1,0 +1,14 @@
+body {
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+
+table {
+    background-color: white;
+    width: 50%;
+    height: 300;
+}
+
+input[type=number]{
+    width: 80px;
+}

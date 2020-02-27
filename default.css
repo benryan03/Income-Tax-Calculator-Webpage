@@ -3,12 +3,28 @@ body {
     font-family: sans-serif;
 }
 
-table {
+/*table {
     background-color: white;
     width: 50%;
     height: 300;
-}
+}*/
 
 input[type=number]{
     width: 80px;
+}
+
+.header {
+    background-color: whitesmoke;
+    width: 500;
+    padding-top: 5;
+    padding-bottom: 5;
+}
+
+.content {
+    background-color: white;
+    width: 400;
+    padding-top: 20;
+    padding-bottom: 20;
+    padding-left: 50;
+    padding-right: 50;
 }

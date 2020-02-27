@@ -9,61 +9,61 @@
 </head>
 
 <body>
-
   <center>
-    <table border=0><tr><td>
-      <center>
-
+    <div class="header">
       <h1>
-          Tax Bracket Calculator
+        Tax bracket calculator
       </h1>
-      
-      Bracket 1<br><br>
+    </div>
+    <div class="content">
+
+      This tool can calculate your net income with different theoretical tax brackets. The options default to the 2019 federal tax brackets.
+      <br><br>
+
+      <b>Bracket 1 - </b>
       Limit: $<input type="number" id="bracket_1_limit" name="bracket_1_limit" value=9700>
       Tax rate: <input type="number" id="bracket_1_rate" name="bracket_1_rate" value=.10>
       <br><br>
 
-      Bracket 2<br><br>
+      <b>Bracket 2 - </b>
       Limit: $<input type="number" id="bracket_2_limit" name="bracket_2_limit" value=39475>
       Tax rate: <input type="number" id="bracket_2_rate" name="bracket_2_rate" value=.12>
       <br><br>
 
-      Bracket 3<br><br>
+      <b>Bracket 3 - </b>
       Limit: $<input type="number" id="bracket_3_limit" name="bracket_3_limit" value=84200>
       Tax rate: <input type="number" id="bracket_3_rate" name="bracket_3_rate" value=.22>
       <br><br>
 
-      Bracket 4<br><br>
+      <b>Bracket 4 - </b>
       Limit: $<input type="number" id="bracket_4_limit" name="bracket_4_limit" value=160725>
       Tax rate: <input type="number" id="bracket_4_rate" name="bracket_4_rate" value=.24>
       <br><br>
 
-      Bracket 5<br><br>
+      <b>Bracket 5 - </b>
       Limit: $<input type="number" id="bracket_5_limit" name="bracket_5_limit" value=204100>
       Tax rate: <input type="number" id="bracket_5_rate" name="bracket_5_rate" value=.32>
       <br><br>
 
-      Bracket 6<br><br>
+      <b>Bracket 6 - </b>
       Limit: $<input type="number" id="bracket_6_limit" name="bracket_6_limit" value=510300>
       Tax rate: <input type="number" id="bracket_6_rate" name="bracket_6_rate" value=.35>
       <br><br>
 
-      Bracket 7<br><br>
+      <b>Bracket 7 - </b>
       Tax rate: <input type="number" id="bracket_7_rate" name="bracket_7_rate" value=.37>
       <br><br>
 
-      Your gross income: $<input type="number" id="income" name="income">
+      Your gross taxable income: $<input type="number" id="income" name="income">
       <br><br>
 
       <input type="button" onclick="calculation()" value="Submit"><br><br>
 
       <p id="result">
-        Net income: 
+        Your net income: 
       </p>
-
-      </center>
-    </td></tr></table>
+      
+    </div>
   </center>
-
 </body>
 </html>

@@ -62,5 +62,5 @@ function calculation(){
     }
 
     result = Math.round(result * 100) / 100 //rounds result to 2 decimal places
-    document.getElementById("result").innerHTML = "Net income: $" + result;
+    document.getElementById("result").innerHTML = "Your net income: $" + result;
 } 
